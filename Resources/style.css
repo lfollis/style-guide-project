@@ -7,6 +7,7 @@ h1 {
 /*!--sections--*/
 div.section-box {
     border: 2px solid gray; 
+    margin-top: 20px;
 }
 
 div.color-container {
@@ -51,4 +52,34 @@ div.beige {
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
+}
+
+div.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+h3.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+h3.source-code-pro {
+    font-family: "source code pro", monospace;
+}
+
+h3.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+h3.nunito-sans {
+    font-family: "Nunito Sans", sans-serif;
 }
